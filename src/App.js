@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import VideoCard from './VideoCard'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       </div>
 
       <div class="main">
-
+        <VideoCard />
+        <VideoCard />
       </div>
     </div>
   );
