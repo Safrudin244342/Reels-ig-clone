@@ -1,7 +1,7 @@
 .videofooter{
   position: relative;
   margin-left: 20px;
-  bottom: 65px;
+  bottom: 70px;
   font-size: 10pt;
 }
 
@@ -10,7 +10,7 @@
   bottom: 0;
   display: flex;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .videofootertext > h3 {
@@ -42,8 +42,7 @@
   display: flex;
 }
 
-.videofooteraction > .right > .stat>.MuiSvgIcon-root{
-  padding: 0 5px;
+.videofooteraction > .right > .stat > .MuiSvgIcon-root{
   width: 15px;
 }
 
@@ -55,6 +54,13 @@
 
 .videofooteraction > .right > .stat > p{
   margin-left: 3px;
+}
+
+.videofooterticker > .ticker{
+  height: fit-content;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 60%;
 }
 
 .videofooterticker h1{
